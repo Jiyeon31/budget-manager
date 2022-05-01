@@ -1,5 +1,5 @@
 // global constants 
-const APP_PREFIX = 'Budgetmanager-';     
+const APP_PREFIX = 'Budget-Manager';     
 const VERSION = 'version_01';
 const CACHE_NAME = APP_PREFIX + VERSION;
 
