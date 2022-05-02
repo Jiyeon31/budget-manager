@@ -19,13 +19,13 @@
   
   You can clone this repository and run "npm install" and "npm start" or go to "https://yourexpense-tracker.herokuapp.com/"
   
-  ## Userstory
+  ## User Story
   
   `AS AN avid traveler
    I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
    SO THAT my account balance is accurate when I am traveling`
    
-  ## Acceptancecriteria
+  ## Acceptance Criteria
   
   `GIVEN a budget tracker without an internet connection
    WHEN the user inputs an expense or deposit
