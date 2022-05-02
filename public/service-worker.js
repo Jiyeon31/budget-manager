@@ -21,9 +21,12 @@ const FILES_TO_CACHE = [
 
 // Respond with cached resources
 self.addEventListener('fetch', function (e) {
+  
   console.log('fetch request : ' + e.request.url)
   e.respondWith(
     caches.match(e.request).then(function (request) {
+    
+      console.log('i was called')
       if (request) { // if cache is available, respond with cache
         console.log('responding with cache : ' + e.request.url)
         return request
@@ -43,6 +46,7 @@ self.addEventListener('install', function (e) {
   e.waitUntil(
     caches.open(CACHE_NAME).then(function (cache) {
       console.log('installing cache : ' + CACHE_NAME)
+      FILES_TO_CACHE.forEach((a)=>console.log(a))
       return cache.addAll(FILES_TO_CACHE)
     })
   )

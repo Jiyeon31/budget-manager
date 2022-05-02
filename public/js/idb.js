@@ -27,7 +27,7 @@ request.onerror = function(event) {
 };
 
 // This function will be executed if we attempt to submit a new pizza and there's no internet connection
-function saveRecord(record) {
+function saveRecord(transaction) {
   // open a new transaction with the database with read and write permissions 
   const transaction = db.transaction(['new_transaction'], 'readwrite');
 
@@ -35,7 +35,7 @@ function saveRecord(record) {
   const budgetObjectStore = transaction.objectStore('new_transaction');
 
   // add record to your store with add method.
-  budgetObjectStore.add(record);
+  budgetObjectStore.add(transaction);
 }
 
 function uploadTransaction() {
