@@ -5,20 +5,6 @@
   
   Budget Manager is an app for tracking your withdrawals and deposits with or without a data/internet connection
   
-  ## Table of Contents
-  * [Installation](#installation)
-  * [Userstory](#userstory)
-  * [Acceptancecriteria](#acceptancecriteria)
-  * [Usage](#usage)
-  * [License](#license)
-  * [Contributing](#contributing)
-  * [Tests](#tests)
-  * [License](#license)
-  
-  ## Installation
-  
-  You can clone this repository and run "npm install" and "npm start" or go to "https://yourexpense-tracker.herokuapp.com/"
-  
   ## Userstory
   
   ```text
@@ -36,6 +22,18 @@
    WHEN the user reestablishes an internet connection
    THEN the deposits or expenses added while they were offline are added to their transaction history and their totals are updated`
   ``` 
+  
+  ## Table of Contents
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [License](#license)
+  
+  ## Installation
+  
+  You can clone this repository and run "npm install" and "npm start" or go to "https://yourexpense-tracker.herokuapp.com/"
    
   ## Usage 
   
