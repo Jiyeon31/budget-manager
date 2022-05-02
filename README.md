@@ -7,8 +7,8 @@
   
   ## Table of Contents
   * [Installation](#installation)
-  * [Userstory](#userstory)
-  * [Acceptancecriteria](#acceptancecriteria)
+  * [User Story](#userstory)
+  * [Acceptance Criteria](#acceptancecriteria)
   * [Usage](#usage)
   * [License](#license)
   * [Contributing](#contributing)
