@@ -5,7 +5,7 @@
   
   Budget Manager is an app for tracking your withdrawals and deposits with or without a data/internet connection
   
-  ## Userstory
+  ## User Story
   
   ```text
    AS AN avid traveler
@@ -13,7 +13,7 @@
    SO THAT my account balance is accurate when I am traveling
   ```
    
-  ## Acceptancecriteria
+  ## Acceptance Criteria
   
   ```text
    GIVEN a budget tracker without an internet connection
