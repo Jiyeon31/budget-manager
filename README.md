@@ -7,8 +7,8 @@
   
   ## Table of Contents
   * [Installation](#installation)
-  * [UserStory](#userstory)
-  * [AcceptanceCriteria](#acceptancecriteria)
+  * [Userstory](#userstory)
+  * [Acceptancecriteria](#acceptancecriteria)
   * [Usage](#usage)
   * [License](#license)
   * [Contributing](#contributing)
@@ -19,19 +19,23 @@
   
   You can clone this repository and run "npm install" and "npm start" or go to "https://yourexpense-tracker.herokuapp.com/"
   
-  ## UserㅤStory
+  ## Userstory
   
-  `AS AN avid traveler
+  ```text
+   AS AN avid traveler
    I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
-   SO THAT my account balance is accurate when I am traveling`
+   SO THAT my account balance is accurate when I am traveling
+  ```
    
-  ## AcceptanceㅤCriteria
+  ## Acceptancecriteria
   
-  `GIVEN a budget tracker without an internet connection
+  ```text
+   GIVEN a budget tracker without an internet connection
    WHEN the user inputs an expense or deposit
    THEN they will receive a notification that they have added an expense or deposit
    WHEN the user reestablishes an internet connection
    THEN the deposits or expenses added while they were offline are added to their transaction history and their totals are updated`
+  ``` 
    
   ## Usage 
   
