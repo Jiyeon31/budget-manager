@@ -26,7 +26,6 @@ self.addEventListener('fetch', function (e) {
   e.respondWith(
     caches.match(e.request).then(function (request) {
     
-      console.log('i was called')
       if (request) { // if cache is available, respond with cache
         console.log('responding with cache : ' + e.request.url)
         return request
